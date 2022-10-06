@@ -1,0 +1,3 @@
+//resposta
+p = mat + 1 - o ponteiro recebe um endereço de memória do mesmo tipo dele;
+x = (*mat)++ - a variavel x recebe o primeiro valor que depois é incrementado;
