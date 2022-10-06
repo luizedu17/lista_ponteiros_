@@ -1,0 +1,4 @@
+//resposta:
+i = p;
+i = (*&)j;
+q = *p;
