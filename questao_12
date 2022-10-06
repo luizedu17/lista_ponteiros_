@@ -1,0 +1,16 @@
+//resposta
+
+Ponteiro para uma função é uma forma de declarar uma variável que armazena o endereço no
+início da execução do código de uma função, e que pode ser chamada posteriormente através
+desse ponteiro. Outra característica importante é o fato de não ser necessário alocar e
+desalocar memória para o seu uso.
+
+#include<stdio.h>
+void ponteiro(int x){
+  printf("%d \n", x);
+}
+int main(){
+  void (*func)(int) = ponteiro;
+  func(9);
+  return(0)
+}
